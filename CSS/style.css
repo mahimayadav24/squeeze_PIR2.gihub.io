@@ -1,0 +1,467 @@
+@font-face {
+    font-family: Petrona__Bold;
+    src: url('../Fonts/Petrona/static/Petrona-Bold.ttf');
+}
+
+@font-face {
+    font-family: Petrona__ExtraBold;
+    src: url('../Fonts/Petrona/static/Petrona-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: Petrona__SemiBold;
+    src: url('../Fonts/Petrona/static/Petrona-SemiBold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+.img img {
+    width: 100%;
+}
+
+.bg__sec {
+    height: 100vh;
+}
+
+.img {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.div__pos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.row__pos__plr__one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column__pos__one {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.left__pos__col {
+    /* border: 1px solid black; */
+    height: auto;
+}
+
+.right__pos__col {
+    height: auto;
+    /* border: 1px solid black; */
+    /* margin: 50px 0px 0px 100px; */
+}
+
+.text__side {
+    padding: 20px 0px 0px 0px;
+}
+
+.yellow {
+    font-size: calc(28pt + 0.15vw);
+    letter-spacing: 0.03em;
+    color: #FF7F2C;
+    font-family: 'Petrona__ExtraBold';
+    background-image: linear-gradient(0, #f9f48eb6 40%, transparent 40%);
+    padding: 0px 80px 0px 40px;
+}
+
+.text__side .spanone {
+    font-size: calc(18pt + 0.15vw);
+    font-family: 'Petrona__SemiBold';
+}
+
+@media screen and (max-width: 1080px) {
+    .text__side .spanone {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .yellow {
+        font-size: calc(12pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text__side {
+        padding: 10px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .text__side .spanone {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .yellow {
+        padding: 0px 0px 0px 10px;
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text__side {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+.head__one {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: #F9F48E;
+    position: relative;
+    top: 10%;
+    left: 35%;
+    right: 0px;
+    bottom: 0;
+}
+
+.head__two {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.head__two h5 {
+    text-align: center;
+    font-size: calc(16pt + 0.15vw);
+    color: #0C896C;
+    font-family: 'Petrona__ExtraBold';
+}
+
+@media screen and (max-width: 1080px) {
+    .head__two h5 {
+        font-size: calc(10pt + 0.15vw);
+    }
+    .head__one {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .head__two h5 {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .head__one {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+.pro__text {
+    padding: 0px 0px 0px 35px;
+}
+
+.pro__text p {
+    font-size: calc(13pt + 0.15vw);
+    color: #0C896C;
+    font-family: 'Petrona__Bold';
+}
+
+@media screen and (max-width: 1080px) {
+    .pro__text p {
+        font-size: calc(8pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .pro__text p {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .pro__text {
+        padding: 0px 0px 0px 10px;
+    }
+}
+
+.green__text {
+    margin: 30px 200px 0px 0px;
+    text-align: center;
+    background-color: #f8f8b034;
+    padding: 10px;
+}
+
+.green__text h3 {
+    color: #01785C;
+    font-size: calc(18pt + 0.15vw);
+    font-family: 'Petrona__ExtraBold';
+}
+
+.green__text span {
+    color: #FF6400;
+}
+
+@media screen and (max-width: 1080px) {
+    .green__text h3 {
+        font-size: calc(8pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .green__text {
+        margin: 10px 50px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .green__text h3 {
+        font-size: calc(6pt + 0.15vw);
+    }
+}
+
+.next__blue {
+    text-align: center;
+    margin: 30px 200px 0px 0px;
+}
+
+.next__blue p {
+    color: #01785C;
+    font-size: calc(13pt + 0.15vw);
+    font-family: 'Petrona__Bold';
+}
+
+@media screen and (max-width: 1080px) {
+    .next__blue p {
+        font-size: calc(8pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .next__blue {
+        margin: 10px 50px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .next__blue p {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .next__blue {
+        margin: 0px 50px 0px 0px;
+    }
+}
+
+.or__para {
+    text-align: center;
+    margin: 30px 200px 0px 0px;
+}
+
+.or__para p {
+    color: #FF652C;
+    font-size: calc(16pt + 0.15vw);
+    font-family: 'Petrona__Bold';
+}
+
+@media screen and (max-width: 1080px) {
+    .or__para p {
+        font-size: calc(8pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .or__para {
+        margin: 0px 50px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .or__para p {
+        font-size: calc(6pt + 0.15vw);
+    }
+}
+
+.gray__text {
+    margin: 30px 0px 0px 50px;
+}
+
+.gray__text p {
+    color: #01785C;
+    font-size: calc(13pt + 0.15vw);
+    font-family: 'Petrona__Bold';
+}
+
+@media screen and (max-width: 1080px) {
+    .gray__text p {
+        font-size: calc(8pt + 0.15vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gray__text {
+        margin: 0px 0px 0px 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .gray__text p {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .gray__text {
+        margin: 0px 0px 0px 10px;
+    }
+}
+
+.input {
+    max-width: 65%;
+    margin: 30px 0px 0px 50px;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #EBEBEB;
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control {
+    background-color: #EBEBEB;
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px dashed #525252;
+}
+
+input[type="text"] {
+    font-size: calc(12pt + 0.15vw);
+    font-family: 'Petrona__SemiBold';
+}
+
+.form-control::-webkit-input-placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000000;
+    /* Firefox */
+}
+
+.form-control::-moz-placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000000;
+    /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000000;
+    /* Firefox */
+}
+
+.form-control::-ms-input-placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000000;
+    /* Firefox */
+}
+
+.form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000000;
+    /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #000000;
+}
+
+.form-control::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .input {
+        margin: 0px 0px 0px 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .input {
+        margin: 0px 0px 0px 10px;
+    }
+    input[type="text"] {
+        width: 150%;
+        font-size: calc(6pt + 00.15vw);
+    }
+    .form-control {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    input[type="text"] {
+        width: 225%;
+    }
+}
+
+.bt1 {
+    margin: 0px 0px 0px 50px;
+}
+
+.bt1 button {
+    border: none;
+    background-color: #FF6400;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: calc(12pt + 00.15vw);
+    font-family: 'Petrona__Bold';
+    transition: .3s ease-in-out;
+    box-shadow: 0px 28px 40px rgba(122, 122, 122, 0.25);
+}
+
+.bt1:hover button {
+    color: black;
+    background-color: #0C896C;
+    transform: translateY(-3px);
+    transition: .3s ease-in-out;
+}
+
+@media screen and (max-width: 1080px) {
+    .bt1 button {
+        padding: 10px 10px;
+        font-size: calc(10pt + 00.15vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bt1 button {
+        padding: 10px 10px;
+        font-size: calc(8pt + 00.15vw);
+    }
+    .bt1 {
+        margin: 0px 0px 0px 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .bt1 button {
+        padding: 10px 10px;
+        font-size: calc(6pt + 00.15vw);
+    }
+    .bt1 {
+        margin: 0px 0px 0px 10px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .bt1 button {
+        width: 155%;
+    }
+}
