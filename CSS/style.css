@@ -77,16 +77,17 @@ body, html {
 }
 
 .yellow {
-    font-size: calc(28pt + 0.15vw);
+    font-size: calc(38pt + 0.15vw);
     letter-spacing: 0.03em;
     color: #FF7F2C;
     font-family: 'Petrona__ExtraBold';
     background-image: linear-gradient(0, #f9f48eb6 40%, transparent 40%);
+    line-height: 1.2195;
     padding: 0px 80px 0px 40px;
 }
 
 .text__side .spanone {
-    font-size: calc(18pt + 0.15vw);
+    font-size: calc(24pt + 0.15vw);
     font-family: 'Petrona__SemiBold';
 }
 
@@ -140,9 +141,11 @@ body, html {
 
 .head__two h5 {
     text-align: center;
-    font-size: calc(16pt + 0.15vw);
+    font-size: calc(17pt + 0.15vw);
     color: #0C896C;
     font-family: 'Petrona__ExtraBold';
+    line-height: 1.2195;
+    letter-spacing: 0.03em;
 }
 
 @media screen and (max-width: 1080px) {
@@ -170,7 +173,7 @@ body, html {
 }
 
 .pro__text p {
-    font-size: calc(13pt + 0.15vw);
+    font-size: calc(18pt + 0.15vw);
     color: #0C896C;
     font-family: 'Petrona__Bold';
 }
@@ -199,7 +202,7 @@ body, html {
 
 .green__text h3 {
     color: #01785C;
-    font-size: calc(18pt + 0.15vw);
+    font-size: calc(23pt + 0.15vw);
     font-family: 'Petrona__ExtraBold';
 }
 
@@ -232,8 +235,10 @@ body, html {
 
 .next__blue p {
     color: #01785C;
-    font-size: calc(13pt + 0.15vw);
+    font-size: calc(18pt + 0.15vw);
     font-family: 'Petrona__Bold';
+    line-height: 1.2195;
+    letter-spacing: 0.03em;
 }
 
 @media screen and (max-width: 1080px) {
@@ -264,8 +269,10 @@ body, html {
 
 .or__para p {
     color: #FF652C;
-    font-size: calc(16pt + 0.15vw);
+    font-size: calc(20pt + 0.15vw);
     font-family: 'Petrona__Bold';
+    line-height: 1.2195;
+    letter-spacing: 0.03em;
 }
 
 @media screen and (max-width: 1080px) {
